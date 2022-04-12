@@ -1,0 +1,98 @@
+body {
+    background-color: beige;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: indianred;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    border: 2px solid sandybrown;
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.card img {
+    width: 500px;
+}
+
+.card p {
+    font-size: 2.5rem;
+    color: sandybrown;
+}
+
+.card p:first-of-type {
+    margin-bottom: -10px;
+}
+
+.card button {
+    border: none;
+    font-size: 1.5rem;
+    background-color: salmon;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    margin: 0 15px 0 15px;
+}
+
+.card button:hover {
+    background-color: beige;
+    color: salmon;
+    cursor: pointer;
+}
+
+.card button:hover,
+#valider:hover {
+    transition: all 1.25s;
+}
+
+.press {
+    display: flex;
+    justify-content: space-between;
+}
+
+#bloc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#name_users,
+#mail_users {
+    padding: 8px 0px 8px 0px;
+    border: 1px solid sandybrown;
+}
+
+#bloc label {
+    color: indianred;
+    font-size: 1.5rem;
+}
+
+#bloc input {
+    margin-top: 30px;
+}
+
+#valider {
+    align-items: center;
+    background-color: indianred;
+    color: beige;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+#valider:hover {
+    background-color: sandybrown;
+}
